@@ -36,7 +36,7 @@ public class HelloJdbcApplication {
         System.out.println("\nAll Courses -------------------------------------\n");
         List<Course> courses = dao.list();
         courses.forEach(System.out::println);
-
+        System.out.println("hello controll");
     }
 
 }
