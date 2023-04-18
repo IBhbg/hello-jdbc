@@ -19,6 +19,7 @@ public class HelloJdbcApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(HelloJdbcApplication.class, args);
+        /*
 
         System.out.println("\nOne Course -------------------------------------\n");
         Optional<Course> course = dao.get(1);
@@ -37,6 +38,8 @@ public class HelloJdbcApplication {
         List<Course> courses = dao.list();
         courses.forEach(System.out::println);
         System.out.println("hello controll");
+
+         */
     }
 
 }
